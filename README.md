@@ -1,6 +1,6 @@
-# OCI Legal Agreement Analyzer SDK (Python)
+# Legal Agreement Analyzer SDK (Python)
 
-This is a Python client SDK for interacting with the OCI Legal Agreement Analyzer API.
+This is a Python client SDK for interacting with the Legal Agreement Analyzer API.
 
 ## Installation
 
@@ -11,7 +11,7 @@ pip install requests
 ## Usage
 
 ```python
-from oci_legal_sdk.client import LegalAnalyzerClient
+from legal_sdk.client import LegalAnalyzerClient
 
 client = LegalAnalyzerClient(base_url="https://api.oci-legal-analyzer.example.com/v1")
 
